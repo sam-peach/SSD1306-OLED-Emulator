@@ -64,8 +64,7 @@ fn start_serial_thread(tx: SyncSender<MessageData>, port_name: String) {
             None => (),
           }
 
-          let (_leader, packets, remainder): (Vec<u8>, Vec<Vec<u8>>, Vec<u8>) =
-            decode_packets(&port_read_buffer);
+          let (packets, remainder): (Vec<Vec<u8>>, Vec<u8>) = decode_packets(&port_read_buffer);
 
           remainder_buffer = Some(remainder);
           port_read_buffer = vec![0; READ_BUFF_SIZE];

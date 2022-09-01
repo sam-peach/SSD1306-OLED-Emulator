@@ -1583,7 +1583,9 @@ dependencies = [
 
 [[package]]
 name = "simple_slip"
-version = "0.1.0"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d32db31bed871fd8005fbe87b8e4b8e3a73ecaa5e61d47e1b83e19fd7f960763"
 
 [[package]]
 name = "slab"

@@ -9,4 +9,4 @@ edition = "2021"
 eframe = "0.19.0"
 minifb = "0.23.0"
 serialport = "4.0.1"
-simple_slip = {path = "../simple_slip"}
+simple_slip = "0.1.2"
