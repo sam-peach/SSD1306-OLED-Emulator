@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-minifb = "0.20"
+eframe = "0.19.0"
+minifb = "0.23.0"
 serialport = "4.0.1"
-serial-line-ip = "0.5.0"
-simple_slip = { path = "../simple_slip" }
+simple_slip = {path = "../simple_slip"}

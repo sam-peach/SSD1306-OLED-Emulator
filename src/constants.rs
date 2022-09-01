@@ -1,0 +1,11 @@
+pub const BASE_WIDTH: u32 = 128;
+pub const BASE_HEIGHT: u32 = 64;
+pub const SCALE: u32 = 1;
+pub const PAGE_SIZE: u32 = 8 * SCALE;
+pub const WIDTH: u32 = BASE_WIDTH * SCALE;
+pub const HEIGHT: u32 = BASE_HEIGHT * SCALE;
+pub const WINDOW_NAME: &str = "OLED Emulator";
+pub const READ_BUFF_SIZE: usize = 128;
+pub const SETTINGS_WINDOW_NAME: &'static str = "OLED Emulator Settings";
+pub const DATA_MASK: u8 = 0x40;
+pub const MAX_CONTRAST: u32 = 255;
