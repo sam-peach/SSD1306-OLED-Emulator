@@ -19,6 +19,7 @@ Download the executable directly from the `builds` folder [here](https://github.
 
 ### Step 2
 In your Arduino IDE, download the `Adafruit SSD1306 EMULATOR` library
+
 ![image](https://user-images.githubusercontent.com/47146346/187985507-382e9b46-a7d5-4fc6-aebe-15b3a05dc245.png)
 
 ### Step 3
@@ -40,10 +41,12 @@ Flash the updated file onto your microcontroller
 
 ### Step 6
 Run the display emulator executable downloaded in step 1 and pick the serial port your Arduino is connected to
+
 ![image](https://user-images.githubusercontent.com/47146346/187987118-c69a9fd4-d280-41e2-95ef-07926ab03dfc.png)
 
 ### Step 7 (Optional)
 Reset your Arduino to sync the emulator and your device. The emulator will sync up on its own but may take a few frames.
+
 ![image](https://user-images.githubusercontent.com/47146346/187988028-fada03ae-00ef-4a2c-b69c-ce830682e43f.png)
 
 ## Compiling from source
