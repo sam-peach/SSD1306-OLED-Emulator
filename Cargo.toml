@@ -10,3 +10,6 @@ eframe = "0.19.0"
 minifb = "0.23.0"
 serialport = "4.0.1"
 simple_slip = "0.1.2"
+
+[profile.release]
+opt-level = 3
