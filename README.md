@@ -4,7 +4,7 @@ An open-source emulator for small OLED displays that are often used for Arduino/
 
 This project is still in an alpha build so it may be a little unstable.
 
-![](https://i.imgur.com/IJizhnY.gif)
+![](https://i.imgur.com/TmFJ7hC.gif)
 
 # Table of contents
 1. [How to use](#how-to-use)
