@@ -7,7 +7,7 @@ This project is still in an alpha build so it may be a little unstable.
 ![](https://i.imgur.com/TmFJ7hC.gif)
 
 # Table of contents
-1. [Who is this for?](#who-is-this-for?)
+1. [Who is this for?](#who-is-this-for)
 2. [How to use](#how-to-use)
 3. [Compiling from source](#compiling-from-source)
 4. [Coming soon](#coming-soon)
